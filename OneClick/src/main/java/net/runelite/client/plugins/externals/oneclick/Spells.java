@@ -20,7 +20,7 @@ public enum Spells
 	ENCHANT_DRAGONSTONE("Dragonstone", WidgetInfo.SPELL_LVL_5_ENCHANT, new Spell("Lvl-5 Enchant")),
 	ENCHANT_ONYX("Onyx", WidgetInfo.SPELL_LVL_6_ENCHANT, new Spell("Lvl-6 Enchant")),
 	ENCHANT_ZENYTE("Zenyte", WidgetInfo.SPELL_LVL_7_ENCHANT, new Spell("Lvl-7 Enchant")),
-	NONE("None", null, new Blank());
+	MONSTER_EXAMINE("Man", WidgetInfo.SPELL_MONSTER_EXAMINE, new Spell("Monster Examine"));
 
 	private String spells;
 	private WidgetInfo widgetInfo;
