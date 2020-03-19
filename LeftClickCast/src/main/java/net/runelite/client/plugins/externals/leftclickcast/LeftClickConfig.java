@@ -167,7 +167,7 @@ public interface LeftClickConfig extends Config
 	)
 	default Spells spellOne()
 	{
-		return Spells.ICE_BARRAGE;
+		return Spells.STAT_SPY;
 	}
 
 	@ConfigItem(
